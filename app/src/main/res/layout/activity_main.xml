@@ -1,33 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingLeft="10dp"
-    android:paddingTop="10dp"
-  android:orientation="horizontal"
+    android:gravity="center_horizontal"
+    android:padding="16sp"
+  android:orientation="vertical"
     tools:context=".MainActivity">
 
 
-   <Button
-       android:id="@+id/button2"
+   <TextView
+       android:id="@+id/textView1"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
-       android:padding="10dp"
-       android:text="Button" />
+       android:layout_marginTop="16dp"
+       android:text="CALCULATE YOUR"
+       android:textColor="#F07167"
+       android:textSize="26sp" />
+   <TextView
+       android:id="@+id/textView2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="16dp"
+       android:text="AGE"
+       android:padding="10sp"
+       android:background="@color/back_Round_color"
+       android:textColor="@color/white"
+       android:textSize="26sp" />
+   <TextView
+       android:id="@+id/textView3"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="16dp"
+       android:text="IN MINUTES"
+       android:textColor="#F07167"
+       android:textSize="26sp" />
 
    <Button
-       android:id="@+id/button3"
-       android:layout_width="wrap_content"
+       android:id="@+id/button"
+       android:layout_width="match_parent"
        android:layout_height="wrap_content"
-       android:paddingRight="10dp"
        android:text="Button" />
 
-   <Button
-       android:id="@+id/button4"
+   <TextView
+       android:id="@+id/textView4"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
-       android:paddingRight="10dp"
-       android:text="Button" />
+       android:layout_marginTop="16dp"
+       android:textColorHint="#d4a373"
+       android:textColor="#F07167"
+       android:textSize="15sp" />
+   <TextView
+       android:id="@+id/textView6"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="8dp"
+       android:hint="Selected Date"
+       android:textColorHint="#d4a373"
+       android:textColor="#F07167"
+       android:textSize="15sp" />
+   <TextView
+       android:id="@+id/textView5"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="16dp"
+       android:textColorHint="#d4a373"
+       android:textColor="#F07167"
+       android:textSize="15sp" />
+   <TextView
+       android:id="@+id/textView7"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="8dp"
+       android:hint="In Minutes Till Date"
+       android:textColorHint="#d4a373"
+       android:textColor="#F07167"
+       android:textSize="15sp" />
+
 </androidx.appcompat.widget.LinearLayoutCompat>
