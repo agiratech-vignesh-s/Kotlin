@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">Age In Minutes</string>
+    <string name="app_name">CalculaterKotlin</string>
+    <string name="dot">.</string>
+    <string name="_9">9</string>
+    <string name="_8">8</string>
+    <string name="jhkjh">/</string>
 </resources>
